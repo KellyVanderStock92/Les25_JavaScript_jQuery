@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	padding: 5px;
+	font-family: "Saira Condensed", sans-serif;
+	background-color: #f7ebe7;
+	color: #436e6f;
+}
+
+header,
+footer {
+	height: 100px;
+	padding: 15px 5px;
+	width: 100%;
+	text-align: center;
+}
+footer {
+	height: 200px;
+}
+
+.navbar-brand,
+.navbar-toggler,
+.nav-link {
+	color: #436e6f;
+}
+.navbar-nav {
+	width: 100%;
+	justify-content: end;
+}
+.navbar-collapse {
+	background-color: #f7ebe7;
+	margin-top: 4px;
+}
+
+.container {
+	padding: 25px;
+	background-color: #fcf7f1;
+}
+
+.text p {
+	padding: 20px;
+}
+
+.col-sm-3 {
+	color: #fcf7f1;
+	margin: 0 auto;
+	text-align: center;
+	height: 70px;
+	background-color: #deae9f;
+	color: #fcf7f1;
+	padding: 15px 0;
+}
+
+.col-sm-9 {
+	background-color: #fcf7f1;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+}
+
+.form {
+	min-height: 400px;
+	margin: 20px auto;
+	padding: 20px 5px;
+}
+
+.btn {
+	color: #436e6f;
+	font-weight: bold;
+}
+.btn-light {
+	background-color: #deae9f;
+}
+
+#panel,
+#flip {
+	margin-top: 15px;
+	padding: 5px;
+	text-align: center;
+	background-color: #f7ebe7;
+}
+
+#panel {
+	margin-top: 0;
+	padding: 50px;
+	display: none;
+}
